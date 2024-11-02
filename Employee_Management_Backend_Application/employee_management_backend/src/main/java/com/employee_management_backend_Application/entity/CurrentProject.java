@@ -20,4 +20,5 @@ public class CurrentProject {
     private String currentProjectDescription;
     private String currentProjectObjective;
     private Integer employeeId;
+    //.
 }

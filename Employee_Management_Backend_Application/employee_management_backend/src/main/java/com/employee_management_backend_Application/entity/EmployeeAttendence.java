@@ -23,4 +23,5 @@ public class EmployeeAttendence {
     private LocalTime outTime;
     private Double workingHour;
     private LocalDate date;
+    //.
 }

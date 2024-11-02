@@ -24,5 +24,5 @@ public interface CurrentProjectRepository extends JpaRepository<CurrentProject,I
     @Query( value = "delete  from CurrentProject  currentProject where currentProject.employeeId=:employeeId")
     public void  deleteCurrentProjectByEmployeeId(@Param("employeeId") Integer employeeId);
 
-
+//..
 }

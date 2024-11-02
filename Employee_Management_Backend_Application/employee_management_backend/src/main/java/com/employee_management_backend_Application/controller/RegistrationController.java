@@ -48,4 +48,5 @@ return new ResponseEntity<>(employeeService.getAllRegistration(),HttpStatus.OK);
     {
         return new ResponseEntity<>(forgotPassordService.forgotPosswordOtpVerification(forgotPasswordRequest),HttpStatus.OK);
     }
+    //.
 }

@@ -10,3 +10,4 @@ public interface EmployeeDetailsRepository extends JpaRepository<EmployeeDetails
     @Query("SELECT  employeeDetails from EmployeeDetails  employeeDetails where employeeDetails.employeeEmail=:employeeEmail")
     public List<EmployeeDetails> getEmployeeDetailsByEmployeeEmail(String employeeEmail);
 }
+//.

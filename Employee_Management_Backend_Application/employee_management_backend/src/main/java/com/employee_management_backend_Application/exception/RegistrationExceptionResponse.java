@@ -12,3 +12,4 @@ public class RegistrationExceptionResponse {
     private String exceptionMessage;
     private Integer exceptionStatusCode;
 }
+//.
